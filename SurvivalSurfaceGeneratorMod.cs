@@ -57,6 +57,7 @@ public static class SurvivalSurfaceGeneratorMod
                         else if (y > 8 && y < WorldHelper.SegmentY + 1)
                         {
                             cache.maCubes[x, y, z] = eCubeTypes.RoughHewnRock;
+                            cache.maCubeValues[x, y, z] = ___SurfaceValCache[x, z];
                         }
                         else
                         {
